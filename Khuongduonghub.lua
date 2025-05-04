@@ -105,7 +105,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: Không Có",
+    Text = "Khương Dương",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -313,7 +313,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "Khương Dương Hub",
+    Title = "Khương Dương",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Theme = "Dark",
@@ -322,7 +322,8 @@ local v15 = v14:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 });
 local v16 = {
-   
+    Home = v15:AddTab({
+        Title = "Thông Tin"
     }),
     Main = v15:AddTab({
         Title = "Cày"
@@ -2676,10 +2677,10 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord",
-    Description = "Giao Lưu",
+    Title = "FaceBook",
+    Description = "Sửa Lỗi",
     Callback = function()
-        setclipboard("https://discord.gg/tboyroblox");
+        setclipboard("https://www.facebook.com/profile.php?id=61555242183875&locale=vi_VN");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
